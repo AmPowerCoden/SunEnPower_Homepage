@@ -9,6 +9,11 @@ header {
     width: 100%;
 }
 
+.logo-wrapper {
+    height: 0%; 
+    width: 10%;
+}
+
 .header-content {
     color: white;
     height: 100%;
@@ -35,12 +40,13 @@ header {
 }
 
 .leistung-wrapper h2{
+    margin-top: 1.5%;
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 
 .leistung-wrapper h3{
-    margin-bottom: 1%;
+    margin-bottom: 0.5%;
 }
 
 .leistung-wrapper p{
@@ -50,16 +56,59 @@ header {
 .produkt-wrapper{
     width: 70%;
     margin: 0 auto;
+    height: 910px;
+}
+
+.produkt-wrapper h2{
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 .produkt {
-    width: 28%;
+    width: 31%;
     float: left;
     border: 2px solid black;
-    margin: 2%;
+    margin: 1%;
+    text-align: justify;
     height: 400px;
 }
 
 .produkt h4{
     margin-bottom: 5%;
+}
+
+.Referenzprojekte {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Referenzprojekte h2 {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.Projekt h3{
+    margin-bottom: 0.5%;
+}
+
+.Projekt p{
+    margin-bottom: 1%;
+}
+
+.News-Bereich {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.News-Bereich h2 {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.news h3 {
+    margin-bottom: 0.5%;
+}
+
+.news p {
+    margin-bottom: 1%;
 }
