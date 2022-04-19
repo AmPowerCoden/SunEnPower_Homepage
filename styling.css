@@ -112,3 +112,62 @@ header {
 .news p {
     margin-bottom: 1%;
 }
+
+.svg-animation-container {
+	width: 65 px;
+    height: 60 px;
+}
+
+.svg-animation-container > svg {
+	width: 100%;
+
+}
+
+#underunderleft {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#underrightright {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#upperupperright {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#upperleftleft {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#underleftleft {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#underunderright {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#upperrightright {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+#upperupperleft {
+	animation: blink 2s infinite alternate ease-in-out;
+}
+
+
+
+@keyframes blink {
+	0% {
+		transform: translate3d(0,0,0);
+		opacity: 1;
+	  }
+	50% {
+	  	transform: translate3d(0,20,20);
+	  	opacity: 0.5;
+	}  
+	100% {
+		transform: translate3d(0,0,0);
+		opacity: 1;	
+	}
+}
