@@ -232,49 +232,26 @@
             </div>
         </div>
 
-        <h2>Kontaktformular</h2>       
-            <div class="Kontakformular">
-                <div id="Kontaktformular"></div>
-                    <div class="Header">
-                    <h1>Kontakiere uns &nbsp;</h1>
-                    <h3>Fülle einfach das Formular aus!</h3>
-                    </div>
-                <div class="Body">
-                    <form action="#">
-                    <ul>
-                    <li>
-                    <p class="left">
-                        <label for="Vorname">Vorname</label>
-                        <input type="text" name="Vorname" />
-                    </p>
-                    <p class="pull-right">
-                        <label for="Nachname">Nachname</label>
-                        <input type="text" name="Nachname" />      
-                    </p>
-                    </li>
-            
-                    <li>
-                    <p>
-                        <label for="email">E-mail <span class="req">*</span></label>
-                        <input type="email" name="email" />
-                    </p>
-                    </li>        
-                    <li><div class="divider"></div></li>
-                    <li>
-                        <label for="Kommmentar">Kommentar</label>
-                        <textarea cols="46" rows="3" name="Kommentar"></textarea>
-                    </li>
-            
-                    <li>
-                        <input class="btn btn-Bestätigen" type="Bestätigen" value="Bestätigen" />
-                        <small>oder drücke <strong>enter</strong></small>
-                    </li>
-            
-                    </ul>
-                    </form>  
-                </div>
-
+        <h2>Kontaktformular</h2> 
+        <form class="Kontaktformular">
+            <div class="linkehälfte Kontaktformular">
+                <input type="text" id="Name eingeben" placeholder="Name">
+                <input type="email" id="Email eingeben" placeholder="Email-Adresse">
+                <input type="text" id="Anmerkung eingeben" placeholder="Anmerkung">
             </div>
+            <div class="rechtehälfte Kontaktformular">
+                <textarea name="Nachricht" type="text" id="Nachricht eingeben" placeholder="Nachricht"></textarea>
+            </div>
+            <input type="Abschicken" value="Abschicken" id="Abschicken">
+        </form>   
+
+        <h2>Impressum/Datenschutz/AGB</h2>
+        <div class="Impressum/Datenschutz/AGB">
+
+        </div>
+        
+    </div>
+  
 
         <footer>
             <h2>Impressum/Datenschutz/AGB</h2>

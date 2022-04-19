@@ -1,3 +1,6 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 *{
     margin: 0;
     padding: 0;
@@ -197,3 +200,6 @@ nav li[aria-current] a:hover {
 		opacity: 1;	
 	}
 }
+
+
+
