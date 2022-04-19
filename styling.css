@@ -34,6 +34,32 @@ header {
     align-items: center;
 }
 
+nav ul {
+    list-style: none; 	  
+    width: 10em;
+  }
+  nav li[aria-current] a {
+	background-color: darkblue; 
+    color: gold;
+}
+  nav a {
+    display: block;
+      padding: 0.4em;
+      text-decoration: none; 
+      font-weight: bold;
+      box-shadow: 0 5px 10px ;
+      color: gold; 
+      transition: all .25s ease-in;	  
+  }
+
+nav a:focus,
+nav a:hover,
+nav li[aria-current] a:focus,
+nav li[aria-current] a:hover {    
+  color: darkblue; 
+  background-color: gold;
+  }
+
 .leistung-wrapper {
     width: 70%;
     margin: 0 auto;

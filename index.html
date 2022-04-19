@@ -108,22 +108,23 @@
             <div class="header-content">
                 <nav class="nav-list">
                     <li>
-                        <span>Leistungen</span>
+                        <span><a href="#leistung-wrapper">Leistungen</a></span>
+
                     </li>
                     <li>
-                        <span>Produktübersicht</span>
+                        <span><a href ="#produkt-wrapper">Produktübersicht</a></span>
                     </li>
                     <li>
-                        <span>Referenzprojekte</span>
+                        <span><a href="#Referenzprojekte">Referenzprojekte</a></span>
                     </li>
                     <li>
-                        <span>News-Bereich</span>
+                        <span><a href="#News-Bereich">News-Bereich</a></span>
                     </li>
                     <li>
-                        <span>Kontaktformular</span>
+                        <span><a href="#Kontaktformular">Kontaktformular</a></span>
                     </li>
                     <li>
-                        <span>Impressum/Datenschutz/AGB</span>
+                        <span><a href="#AGB">Impressum/Datenschutz/AGB</a></span>
                     </li>
                 </nav>
             </div>
@@ -132,6 +133,7 @@
 
     <div class="main-wrapper">
         <div class="leistung-wrapper">
+            <div id="leistung-wrapper"></div>
             <h2>Unsere Leistungen</h2>
             <div class="planUndDurchführung">
                 <h3>Planung und Durchführung unserer Projekte</h3>
@@ -149,6 +151,7 @@
 
         
         <div class="produkt-wrapper">
+            <div id="produkt-wrapper"></div>
             <h2>Produktübersicht</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -180,7 +183,7 @@
             </div>
         </div>
 
-
+        
         <div class="Referenzprojekte">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <h2>Referenzprojekte</h2>
@@ -207,6 +210,7 @@
 
 
         <div class="News-Bereich">
+            <div id="News-Bereich"></div>
             <h2>News-Bereich</h2>
             <div class="news">
                 <h3>Aktuelle Techniken</h3>
@@ -228,61 +232,59 @@
             </div>
         </div>
 
-        <h2>Kontaktformular</h2>    
+        <h2>Kontaktformular</h2>       
+            <div class="Kontakformular">
+                <div id="Kontaktformular"></div>
+                    <div class="Header">
+                    <h1>Kontakiere uns &nbsp;</h1>
+                    <h3>Fülle einfach das Formular aus!</h3>
+                    </div>
+                <div class="Body">
+                    <form action="#">
+                    <ul>
+                    <li>
+                    <p class="left">
+                        <label for="Vorname">Vorname</label>
+                        <input type="text" name="Vorname" />
+                    </p>
+                    <p class="pull-right">
+                        <label for="Nachname">Nachname</label>
+                        <input type="text" name="Nachname" />      
+                    </p>
+                    </li>
+            
+                    <li>
+                    <p>
+                        <label for="email">E-mail <span class="req">*</span></label>
+                        <input type="email" name="email" />
+                    </p>
+                    </li>        
+                    <li><div class="divider"></div></li>
+                    <li>
+                        <label for="Kommmentar">Kommentar</label>
+                        <textarea cols="46" rows="3" name="Kommentar"></textarea>
+                    </li>
+            
+                    <li>
+                        <input class="btn btn-Bestätigen" type="Bestätigen" value="Bestätigen" />
+                        <small>oder drücke <strong>enter</strong></small>
+                    </li>
+            
+                    </ul>
+                    </form>  
+                </div>
 
-        <h2>Impressum/Datenschutz/AGB</h2>
+            </div>
+
+        <footer>
+            <h2>Impressum/Datenschutz/AGB</h2>
         <div class="Impressum/Datenschutz/AGB">
-
+            <div id="AGB"></div>
         </div>
 
+   
 
-        
-        <div class="Kontakformular">
-            <div class="Header">
-            <h1>Kontakiere uns &nbsp;</h1>
-            <h3>Fülle einfach das Formular aus!</h3>
-            </div>
-    <div class="Body">
-      <form action="#">
-        <ul>
-          
-          <li>
-            <p class="left">
-              <label for="Vorname">Vorname</label>
-              <input type="text" name="Vorname" />
-            </p>
-            <p class="pull-right">
-              <label for="Nachname">Nachname</label>
-              <input type="text" name="Nachname" />      
-            </p>
-          </li>
-          
-          <li>
-            <p>
-              <label for="email">E-mail <span class="req">*</span></label>
-              <input type="email" name="email" />
-            </p>
-          </li>        
-          <li><div class="divider"></div></li>
-          <li>
-            <label for="Kommmentar">Kommentar</label>
-            <textarea cols="46" rows="3" name="Kommentar""></textarea>
-          </li>
-          
-          <li>
-            <input class="btn btn-Bestätigen" type="Bestätigen" value="Bestätigen" />
-            <small>oder drücke <strong>enter</strong></small>
-          </li>
-          
-        </ul>
-      </form>  
-    </div>
-
-    </div>
-
-    <footer>
-
-    </footer>
+        </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
