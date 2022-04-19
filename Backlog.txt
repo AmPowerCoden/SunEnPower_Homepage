@@ -13,6 +13,7 @@
 11) gitignore erstellt und eigenfügt - 2. Sprint
 12) Menübandanimation - 3. Sprint
 13) Bilder einfügen - 3. Sprint
+14) Passende Bilder suchen - 2. Sprint
 
 
 
