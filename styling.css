@@ -1,3 +1,6 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 *{
     margin: 0;
     padding: 0;
@@ -171,3 +174,6 @@ header {
 		opacity: 1;	
 	}
 }
+
+
+
