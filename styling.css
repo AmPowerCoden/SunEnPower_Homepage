@@ -83,6 +83,10 @@ nav li[aria-current] a:hover {
     margin: 0 auto;
 }
 
+.produkt-wrapper img {
+    margin-bottom: 10px;
+}
+
 .produkt-wrapper h2{
     text-align: center;
     margin-bottom: 1%;
@@ -139,6 +143,10 @@ nav li[aria-current] a:hover {
 .News-Bereich h2 {
     text-align: center;
     margin-bottom: 1%;
+}
+
+.News-Bereich img{
+    margin-bottom: 15px;
 }
 
 .news h3 {
