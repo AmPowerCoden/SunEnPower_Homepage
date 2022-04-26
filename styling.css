@@ -198,7 +198,7 @@ nav li[aria-current] a:hover {
 
 
 
-form { max-width:420px; margin:50px auto; }
+form { max-width:500px; margin:50px auto; }
 
 .feedback-input {
   color:black;
@@ -220,7 +220,7 @@ form { max-width:420px; margin:50px auto; }
 .feedback-input:focus { border:2px solid orange; }
 
 textarea {
-  height: 150px;
+  height: 200px;
   line-height: 150%;
   resize:vertical;
 }
