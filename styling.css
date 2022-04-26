@@ -14,6 +14,10 @@ header {
     width: 10%;
 }
 
+.main-wrapper h1{
+    text-align: center;
+}
+
 .header-content {
     color: white;
     height: 100%;
@@ -61,25 +65,32 @@ nav li[aria-current] a:hover {
   }
 
 .leistung-wrapper {
-    width: 70%;
-    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%)
 }
 
 .leistung-wrapper h2{
+    width: 70%;
     margin-top: 1.5%;
     text-align: center;
     margin-bottom: 1%;
+    margin: 0 auto;
 }
 
 .leistung-wrapper h3{
+    width: 70%;
     margin-bottom: 0.5%;
+    margin: 0 auto;
 }
 
 .leistung-wrapper p{
+    width: 70%;
     margin-bottom: 1%;
+    margin: 0 auto;
 }
 
 .produkt-wrapper{
+    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
     margin: 0 auto;
 }
 
@@ -114,25 +125,32 @@ nav li[aria-current] a:hover {
 }
 
 .Referenzprojekte {
-    width: 70%;
-    margin: 0 auto;
+    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
 }
 
 .Referenzprojekte h2 {
     text-align: center;
     margin-bottom: 1%;
+    width: 70%;
+    margin: 1% auto;
 }
 
 .projekt {
     margin-bottom: 10px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .Projekt h3{
     margin-bottom: 0.5%;
+    width: 70%;
+    margin:  auto;
 }
 
 .Projekt p{
     margin-bottom: 1%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .News-Bereich {
@@ -155,6 +173,11 @@ nav li[aria-current] a:hover {
 
 .news p {
     margin-bottom: 1%;
+}
+
+.footer {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .svg-animation-container {
