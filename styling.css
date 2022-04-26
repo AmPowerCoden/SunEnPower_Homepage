@@ -88,6 +88,14 @@ nav li[aria-current] a:hover {
     margin-bottom: 1%;
 }
 
+.produkt-wrapper h3{
+    text-align: center;
+}
+
+.Referenzprojekte h3{
+    text-align: center;
+}
+
 .produkt {
     width: 31%;
     float: left;
@@ -109,6 +117,10 @@ nav li[aria-current] a:hover {
 .Referenzprojekte h2 {
     text-align: center;
     margin-bottom: 1%;
+}
+
+.projekt {
+    margin-bottom: 10px;
 }
 
 .Projekt h3{
