@@ -252,15 +252,15 @@
         </div>
 
         
-        <form class="Kontaktformular">     
+        <form class="Kontaktformular" method="post" action="./form-mailer.php">     
             <h2>Kontaktformular</h2>     
             <input name="Name" type="text" class="feedback-input" placeholder="Name" />   
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
-            <textarea name="text" class="feedback-input" placeholder="Kommentar"></textarea>
-            <button type="Button">Abschicken</button>
-        </form>
-        
-        
+            <input name="Mail" type="text" class="feedback-input" placeholder="E-mail" />
+            <textarea name="Nachricht" class="feedback-input" placeholder="Kommentar"></textarea>
+            <button type="submit">Abschicken</button>
+        </form>  
+
+
     </div>
   
 

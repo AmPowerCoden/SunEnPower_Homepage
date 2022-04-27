@@ -268,7 +268,7 @@ textarea {
   resize:vertical;
 }
 
-[type="Button"] {
+[type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
   background:grey;
@@ -283,4 +283,4 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="Button"]:hover { background:orange; }
+[type="submit"]:hover { background:orange; }
