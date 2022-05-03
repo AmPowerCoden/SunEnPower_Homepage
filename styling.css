@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 991px){
+@media screen and (min-width: 620px) and (max-width: 991px){
     h1{
         font-size: 40px !important;
     }
@@ -33,26 +33,6 @@
         font-size: 22px;    
     }
 }
-
-@media screen and (min-width: 200px) and (max-width: 599px){
-    h1{
-        font-size: 42px !important;
-    }
-
-    h2 {
-        font-size: 34px !important;
-    }
-
-    h3{
-        font-size: 32px !important;
-    }
-
-    p{
-        font-size: 26px;    
-    }
-}
-
-
 
 
 *{
