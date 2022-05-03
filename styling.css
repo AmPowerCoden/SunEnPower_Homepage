@@ -154,6 +154,10 @@ nav li[aria-current] a:hover {
     margin: 0 auto;
 }
 
+.News-Farbverlauf {
+    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+}
+
 .News-Bereich {
     width: 70%;
     margin: 0 auto;
