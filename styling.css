@@ -158,6 +158,10 @@ nav li[aria-current] a:hover {
     background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
 }
 
+.Kontaktformular-Background {
+    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+}
+
 .News-Bereich {
     width: 70%;
     margin: 0 auto;
@@ -246,7 +250,15 @@ nav li[aria-current] a:hover {
 
 
 
-form { max-width:500px; margin:50px auto; }
+form { max-width:500px; margin: auto; }
+
+.Kontaktformular h2{
+    margin-top: 50px;
+}
+
+.Kontaktformular button{
+    margin-bottom: 50px;
+}
 
 .feedback-input {
   color:black;
@@ -283,7 +295,6 @@ textarea {
   color:white;
   font-size:24px;
   padding-top:10px;
-  padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
