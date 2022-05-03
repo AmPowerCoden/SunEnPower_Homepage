@@ -1,73 +1,7 @@
-@media screen and (min-width: 992px){
-    h1 {
-        font-size: 34px !important;
-    }
-
-    h2 {
-        font-size: 27px !important;
-    }
-
-    h3{
-        font-size: 23px !important;
-    }
-
-    p{
-        font-size: 16px;    
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 991px){
-    h1{
-        font-size: 40px !important;
-    }
-
-    h2 {
-        font-size: 30px !important;
-    }
-
-    h3{
-        font-size: 28px !important;
-    }
-
-    p{
-        font-size: 22px;    
-    }
-}
-
-@media screen and (min-width: 200px) and (max-width: 599px){
-    h1{
-        font-size: 42px !important;
-    }
-
-    h2 {
-        font-size: 34px !important;
-    }
-
-    h3{
-        font-size: 32px !important;
-    }
-
-    p{
-        font-size: 26px;    
-    }
-}
-
-
-
-
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-h1, h2, h3 {
-    font-weight: bold !important;
-    margin-top: 15px !important;
-    margin-bottom: 15px !important;
-}
-
-
 
 header {
     background-color: rgb(77, 71, 71);
@@ -75,8 +9,16 @@ header {
     width: 100%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(77, 71, 71);
+  z-index: 1;
+}
+
 .logo-wrapper {
-    height: 0%; 
+    height: 0%;
     width: 10%;
 }
 
@@ -105,28 +47,28 @@ header {
 }
 
 nav ul {
-    list-style: none; 	  
+    list-style: none;
     width: 10em;
   }
   nav li[aria-current] a {
-	background-color: darkblue; 
+	background-color: darkblue;
     color: gold;
 }
   nav a {
     display: block;
       padding: 0.4em;
-      text-decoration: none; 
+      text-decoration: none;
       font-weight: bold;
       box-shadow: 0 5px 10px ;
-      color: gold; 
-      transition: all .25s ease-in;	  
+      color: gold;
+      transition: all .25s ease-in;
   }
 
 nav a:focus,
 nav a:hover,
 nav li[aria-current] a:focus,
-nav li[aria-current] a:hover {    
-  color: darkblue; 
+nav li[aria-current] a:hover {
+  color: darkblue;
   background-color: gold;
   }
 
@@ -307,10 +249,10 @@ nav li[aria-current] a:hover {
 	50% {
 	  	transform: translate3d(0,20,20);
 	  	opacity: 0.5;
-	}  
+	}
 	100% {
 		transform: translate3d(0,0,0);
-		opacity: 1;	
+		opacity: 1;
 	}
 }
 
