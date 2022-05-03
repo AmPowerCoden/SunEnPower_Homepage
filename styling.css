@@ -1,7 +1,73 @@
+@media screen and (min-width: 992px){
+    h1 {
+        font-size: 34px !important;
+    }
+
+    h2 {
+        font-size: 27px !important;
+    }
+
+    h3{
+        font-size: 23px !important;
+    }
+
+    p{
+        font-size: 16px;    
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px){
+    h1{
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3{
+        font-size: 28px !important;
+    }
+
+    p{
+        font-size: 22px;    
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 599px){
+    h1{
+        font-size: 42px !important;
+    }
+
+    h2 {
+        font-size: 34px !important;
+    }
+
+    h3{
+        font-size: 32px !important;
+    }
+
+    p{
+        font-size: 26px;    
+    }
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+h1, h2, h3 {
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+
 
 header {
     background-color: rgb(77, 71, 71);
@@ -158,6 +224,10 @@ nav li[aria-current] a:hover {
     background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
 }
 
+.Kontaktformular-Background {
+    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+}
+
 .News-Bereich {
     width: 70%;
     margin: 0 auto;
@@ -246,7 +316,15 @@ nav li[aria-current] a:hover {
 
 
 
-form { max-width:500px; margin:50px auto; }
+form { max-width:500px; margin: auto; }
+
+.Kontaktformular h2{
+    margin-top: 50px;
+}
+
+.Kontaktformular button{
+    margin-bottom: 50px;
+}
 
 .feedback-input {
   color:black;
@@ -283,7 +361,6 @@ textarea {
   color:white;
   font-size:24px;
   padding-top:10px;
-  padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
