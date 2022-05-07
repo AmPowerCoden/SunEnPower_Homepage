@@ -346,3 +346,14 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:orange; }
+
+
+
+.modal-header{
+    text-align: center;
+    margin: 2% auto;
+}
+.modal-body{
+    text-align: center;
+   margin: 2% auto;
+}
