@@ -1,3 +1,40 @@
+@media screen and (min-width: 992px){
+    h1 {
+        font-size: 34px !important;
+    }
+
+    h2 {
+        font-size: 27px !important;
+    }
+
+    h3{
+        font-size: 23px !important;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 991px){
+    h1{
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3{
+        font-size: 28px !important;
+    }
+
+    p{
+        font-size: 22px;
+    }
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -308,3 +345,14 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:orange; }
+
+
+
+.modal-header{
+    text-align: center;
+    margin: 2% auto;
+}
+.modal-body{
+    text-align: center;
+   margin: 2% auto;
+}
