@@ -116,16 +116,17 @@ nav li[aria-current] a:hover {
 
 .leistung-wrapper h2{
     width: 70%;
-    margin-top: 1.5%;
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 20px;
+    margin-top: 30px;
     margin: 0 auto;
 }
 
 .leistung-wrapper h3{
     width: 70%;
-    margin-bottom: 0.5%;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .leistung-wrapper p{
@@ -145,7 +146,8 @@ nav li[aria-current] a:hover {
 
 .produkt-wrapper h2{
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .produkt-wrapper h3{
@@ -154,7 +156,8 @@ nav li[aria-current] a:hover {
 
 .Referenzprojekte h3{
     text-align: center;
-    margin: 1%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .produkt {
@@ -176,7 +179,8 @@ nav li[aria-current] a:hover {
 
 .Referenzprojekte h2 {
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 70%;
     margin: 1% auto;
 }
@@ -188,9 +192,10 @@ nav li[aria-current] a:hover {
 }
 
 .Projekt h3{
-    margin-bottom: 0.5%;
-    width: 70%;
     margin:  auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 70%;
 }
 
 .Projekt p{
@@ -214,7 +219,8 @@ nav li[aria-current] a:hover {
 
 .News-Bereich h2 {
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .News-Bereich img{
