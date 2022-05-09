@@ -1,31 +1,24 @@
-function writeMail(message){
-    send_button.value = 'sending...';
-    send_button.disabled = true;
+function SendMail()
+{
+    let name = document.getElementById('input_name').value;
 
-    var request = new XMLHttpRequest();
+    let mail = document.getElementById('input_mail').value;
 
-    request.onreadystatechange = function() {
-        if (request.readyState == 4 && request.status == 200) {
-            js_onSuccess();
-        } else
-        if(request.readyState == 4) {
-            js_onError(request.response);
-        }
+    let nachricht = document.getElementById('textarea_nachricht').value;
 
-        var nachricht = document.querySelector("#js_send_mail [name='Nachricht']")
-        var name = document.querySelector("#js_send_mail [name='Name']")
-        var Mail = document.querySelector("#js_send_mail [name='Mail']")
-    };
+    sendEmail(name, mail, nachricht);
 }
 
-function js_onSuccess() {
-    window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+function sendEmail(customer_name, customer_mail, customer_message) {
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "sunenpower@gmail.com",
+        Password : "SunEnPowerPasswort",
+        To : 'sunenpower@gmail.com',
+        From : "sunenpower@gmail.com",
+        Subject : "sunEnPower Kontaktaufnahme",
+        Body : "<p>" + customer_name + "</p>" + "<p>" + customer_mail + "</p>" + "<p>" + customer_message + "</p>"
+    }).then(
+    message => alert("Ihre Nachricht wurde an einen unserer Zuständigen Mitarbeiter gesendet")
+    );
 }
-
-function js_onError(error) {
-    window.location = window.location.pathname + "?message=Email+could+not+be+sent.&isError=1";
-}
-
-var send_button = document.getElementById("js_send");
-
-send_button.onclick(writeMail);
