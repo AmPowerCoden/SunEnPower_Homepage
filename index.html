@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+      <div id="header">
         <div class="header-wrapper">
             <div class="logo-wrapper">
                 <div class="svg-animation-container">
@@ -102,8 +103,8 @@
                         </linearGradient>
                         </defs>
                         </svg>
-                        
-                        
+
+
                 </div>
             </div>
             <div class="header-content">
@@ -130,6 +131,7 @@
                 </nav>
             </div>
         </div>
+      </div>
     </header>
 
     <div class="main-wrapper">
@@ -153,7 +155,7 @@
             </div>
         </div>
 
-        
+
         <div class="produkt-wrapper">
                 <div id="produkt-wrapper"></div>
                 <h2>Produktübersicht</h2>
@@ -189,9 +191,10 @@
                 </div>
         </div>
 
-        
+
         <div class="Referenzprojekte">
             <div class="col-lg-12 col-md-12 col-sm-12">
+                <div id="Referenzprojekte"></div>
                 <h2>Referenzprojekte</h2>
                 <div class="projekt">
                     <h3>Photovoltaik Einfamilienhaus</h3>
@@ -252,37 +255,50 @@
                 </div>
             </div>
         </div>
-        
+
 
         <div class="Kontaktformular-Background">
-            <form id="js_send_mail" class="Kontaktformular" method="post" action="./form-mailer.php">     
-                <h2>Kontaktformular</h2>     
-                <input name="Name" type="text" class="feedback-input" placeholder="Name" />   
+<<<<<<< HEAD
+            <form class="Kontaktformular" method="post" action="/form-mailer.php">
+                <div id="Kontaktformular"></div>
+                <h2>Kontaktformular</h2>
+                <input name="Name" type="text" class="feedback-input" placeholder="Name" />
                 <input name="Mail" type="text" class="feedback-input" placeholder="E-mail" />
                 <textarea name="Nachricht" class="feedback-input" placeholder="Kommentar"></textarea>
-                <button type="submit" id="js_send" value="Send">Abschicken</button>
-            </form> 
+                <button type="submit">Abschicken</button>
+            </form>
+=======
+            <form class="Kontaktformular" method="post" action="/form-mailer.php">
+                <div id="Kontaktformular"></div>
+                <h2>Kontaktformular</h2>
+                <input name="Name" type="text" class="feedback-input" placeholder="Name" />
+                <input name="Mail" type="text" class="feedback-input" placeholder="E-mail" />
+                <textarea name="Nachricht" class="feedback-input" placeholder="Kommentar"></textarea>
+                <button type="submit">Abschicken</button>
+            </form>
+>>>>>>> 11c0f621068aa4b3ecbc0e3b8fa67e138f261a41
         </div>
     </div>
-  
+
 
         <footer>
 
         <div class="jumbotron" style="text-align:center; margin-bottom:0px; color:black; background-color:#393e41;position:relative;">
             <div class="container" >
+                <div id="AGB"></div>
                 <div class="firmenname" style="color:white; border:none;">
-                    © SunEnPower – Solartechnik GmbH                    
+                    © SunEnPower – Solartechnik GmbH
                     <span class="impressum">
                         <span><a href="./impressum-text.html" target="_blank"><U>Impressum</U></a></span>
-                    </span>	
+                    </span>
                     -
                     <span class="datenschutz">
                         <span><a href="./datenschutz-text.html" target="_blank"><U>Datenschutz</U></a></span>
-                    </span>	
+                    </span>
                     -
                     <span class="AGB">
                         <span><a href="./AGB-text.html" target="_blank"><U>AGB</U></a></span>
-                    </span>	
+                    </span>
                 </div>
             </div>
         </div>
@@ -294,4 +310,19 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="logic.js"></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var header = document.getElementById("header");
+
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          header.classList.add("sticky")
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
 </body>

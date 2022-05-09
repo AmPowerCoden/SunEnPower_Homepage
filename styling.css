@@ -12,7 +12,7 @@
     }
 
     p{
-        font-size: 16px;    
+        font-size: 16px;
     }
 }
 
@@ -30,7 +30,7 @@
     }
 
     p{
-        font-size: 22px;    
+        font-size: 22px;
     }
 }
 
@@ -38,16 +38,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-h1, h2, h3 {
-    font-weight: bold !important;
-    margin-top: 15px !important;
-    margin-bottom: 15px !important;
-}
-
-
 
 header {
     background-color: rgb(77, 71, 71);
@@ -55,8 +46,16 @@ header {
     width: 100%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(77, 71, 71);
+  z-index: 1;
+}
+
 .logo-wrapper {
-    height: 0%; 
+    height: 0%;
     width: 10%;
 }
 
@@ -85,28 +84,28 @@ header {
 }
 
 nav ul {
-    list-style: none; 	  
+    list-style: none;
     width: 10em;
   }
   nav li[aria-current] a {
-	background-color: darkblue; 
+	background-color: darkblue;
     color: gold;
 }
   nav a {
     display: block;
       padding: 0.4em;
-      text-decoration: none; 
+      text-decoration: none;
       font-weight: bold;
       box-shadow: 0 5px 10px ;
-      color: gold; 
-      transition: all .25s ease-in;	  
+      color: gold;
+      transition: all .25s ease-in;
   }
 
 nav a:focus,
 nav a:hover,
 nav li[aria-current] a:focus,
-nav li[aria-current] a:hover {    
-  color: darkblue; 
+nav li[aria-current] a:hover {
+  color: darkblue;
   background-color: gold;
   }
 
@@ -287,10 +286,10 @@ nav li[aria-current] a:hover {
 	50% {
 	  	transform: translate3d(0,20,20);
 	  	opacity: 0.5;
-	}  
+	}
 	100% {
 		transform: translate3d(0,0,0);
-		opacity: 1;	
+		opacity: 1;
 	}
 }
 
@@ -346,3 +345,14 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:orange; }
+
+
+
+.modal-header{
+    text-align: center;
+    margin: 2% auto;
+}
+.modal-body{
+    text-align: center;
+   margin: 2% auto;
+}

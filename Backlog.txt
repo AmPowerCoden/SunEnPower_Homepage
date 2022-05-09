@@ -1,21 +1,38 @@
 === PRODUKT-BACKLOG ===
 
+1. Sprint:
 1) SVG-Logo auswählen - 1. Sprint
 2) HTML-Grundgeruest - 1. Sprint
-3) Text-Abschnitte der Site einfügen und Layout anpassen - 2. Sprint
-4) Kontaktformular einfach interaktiv - 2. Sprint
-5) Fußzeile (Impressum, Datenschutz) - 3. Sprint
-6) Menüband - 2. Sprint
-7) allg. Seitenlayout - 2. Sprint
-8) Logo für Animation vorbereiten - 1. Sprint
-9) Logo animieren - 2. Sprint
-10) Logo in Seite einpassen
-11) gitignore erstellt und eigenfügt - 2. Sprint
-12) Menübandanimation - 3. Sprint
-13) Bilder einfügen - 3. Sprint
-14) Passende Bilder suchen - 2. Sprint
-15) Impressum/Datenschutz/AGB- 4. Sprint
-16) Kontaktformular soll Email verschicken können - 4. Sprint
+3) Logo für Animation vorbereiten - 1. Sprint
+
+2. Sprint:
+1) Text-Abschnitte der Site einfügen und Layout anpassen - 2. Sprint
+2) Kontaktformular einfach interaktiv - 2. Sprint
+3) Menüband - 2. Sprint
+4) allg. Seitenlayout - 2. Sprint
+5) gitignore erstellt und eigenfügt - 2. Sprint
+6) Logo animieren - 2. Sprint
+7) Passende Bilder suchen - 2. Sprint
+
+3. Sprint:
+1) Fußzeile (Impressum, Datenschutz) - 3. Sprint
+2) Menübandanimation - 3. Sprint
+3) Bilder einfügen - 3. Sprint
+4) Logo in Seite einpassen - 3. Sprint
+
+4. Sprint:
+1) Impressum/Datenschutz/AGB- 4. Sprint
+2) Abschnitte durch Hintergrund farblich abtrennen - 4. Sprint
+3) Kontaktformular soll Email verschicken können - 4. Sprint und 5. Sprint
+4) Responsivität - 4. Sprint und 5. Sprint
+
+5. Sprint:
+1) Kontaktformular soll Email verschicken können - 4. Sprint und 5. Sprint
+2) Responsivität - 4. Sprint und 5. Sprint
+3) Impressum/Datenschutz/AGB Formulare formatieren - 5. Sprint
+4) Kopfzeile soll beim Scrollen sichtbar bleiben - 5. Sprint
+5) Alle Buttons der Navigationsleiste funktionieren - 5. Sprint
+
 
 
 zu 1) Als Firmeninhaber möchte ich ein aussagekräftiges Firmenlogo auf der Webseite sehen.
@@ -33,10 +50,40 @@ zu 12) Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigie
 zu 13) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit die Firma gegenüber Konkurrenten hervorsticht.
 
 
+Aufgabenstellung:
+
+Keep it simple.
+
+WebSite from Scratch für Firma „SunEnPower – Solartechnik GmbH“ Dienstleister für die Planung und Realisierung im Bereich Photovoltaik.
+•	Single-Pager 
+•	Logo (animiert) 
+•	Für alle Geräte (responsive) 
+•	Leistungsübersicht:
+•	Planung und Durchführung
+•	Wartung und Reparatur
+•	Produktübersicht:
+•	Photovoltaikanlagen für Privathäuser und Gewerbeimmobilien
+•	Photovoltaikanlagen Carports und Garagen
+•	Stromspeicher
+•	Wallboxen und Ladeanschluss-Systeme für Elektrofahrzeuge
+•	Übersicht Referenzprojekte:
+•	Photovoltaik Einfamilienhaus
+•	Photovoltaik Lagerhalle
+•	3 Wallboxen für Hotelgäste
+•	News-Bereich:
+•	Aktuellen Techniken
+•	Staatliche Förderung
+•	Unternehmens-News
+•	Kontaktformular, für Anfragen 
+•	Impressum/Datenschutz/AGB
+
+
+Texte: Lorem Ipsum
+Bilder aus Pixabay kostenlos. Z.B.: https://pixabay.com/de/images/search/photovoltaik/
+
+
 
 ToDo
--Firmenname als Überschrift
--Impressum/Datenschutz/AGB Dateien zentrieren
 -Kontaktformular: Daten an email verschicken
 -Navigation auch wenn man runtergescrollt hat
--Navigationsleiste soll bei jedem Punkt funktionieren
+-jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
