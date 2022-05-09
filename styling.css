@@ -48,6 +48,7 @@ header {
 
 .sticky {
   position: fixed;
+  height: 8%;
   top: 0;
   width: 100%;
   background-color: rgb(77, 71, 71);
@@ -72,15 +73,10 @@ header {
 .nav-list li {
     list-style: none;
     text-align: center;
+    margin-top: .7rem;
     display: inline-block;
     margin-right: 5%;
     height: 100%;
-}
-
-.nav-list span {
-    height: 100%;
-    display: grid;
-    align-items: center;
 }
 
 nav ul {
@@ -92,7 +88,7 @@ nav ul {
     color: gold;
 }
   nav a {
-    display: block;
+      display: block;
       padding: 0.4em;
       text-decoration: none;
       font-weight: bold;
@@ -101,10 +97,9 @@ nav ul {
       transition: all .25s ease-in;
   }
 
-nav a:focus,
-nav a:hover,
-nav li[aria-current] a:focus,
-nav li[aria-current] a:hover {
+
+nav li a:focus,
+nav li a:hover {
   color: darkblue;
   background-color: gold;
   }
