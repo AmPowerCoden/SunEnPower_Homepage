@@ -22,3 +22,17 @@ function sendEmail(customer_name, customer_mail, customer_message) {
     message => alert("Ihre Nachricht wurde an einen unserer Zuständigen Mitarbeiter gesendet")
     );
 }
+
+window.onscroll = function() {stickyHeader()};
+
+var header = document.getElementById("header");
+
+var sticky = header.offsetTop;
+
+function stickyHeader() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky")
+    } else {
+      header.classList.remove("sticky");
+    }
+}
