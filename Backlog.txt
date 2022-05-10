@@ -92,3 +92,5 @@ ToDo
 -Kontaktformular: Daten an email verschicken
 -jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
 -Kommentare
+-wer präsentiert was?
+-Fertiges Projekt hochladen
