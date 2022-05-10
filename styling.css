@@ -70,39 +70,95 @@ header {
     margin-left: 15%;
 }
 
-.nav-list li {
-    list-style: none;
-    text-align: center;
-    margin-top: .7rem;
-    display: inline-block;
-    margin-right: 5%;
-    height: 100%;
+a {
+  text-decoration: none;
 }
 
-nav ul {
-    list-style: none;
-    width: 10em;
-  }
-  nav li[aria-current] a {
-	background-color: darkblue;
-    color: gold;
+li {
+  list-style: none;
 }
-  nav a {
-      display: block;
-      padding: 0.4em;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 5px 10px ;
-      color: gold;
-      transition: all .25s ease-in;
-  }
+
+.nav-list {
+  display: flex;
+  margin-top: .5rem;
+  align-items: center;
+  justify-content: space-between;
 
 
-nav li a:focus,
-nav li a:hover {
-  color: darkblue;
+  color: #fff;
+}
+
+.nav-links {
+  width: 95%;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
   background-color: gold;
+  color: darkblue;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  margin-top: 0.35rem;
+  font-size: 24px;
+  user-select: none;
+  margin-left: 100%;
+}
+
+@media (max-width: 1360px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(77, 71, 71);
+    color: #fff;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
   }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: gold;
+    color: darkblue;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type=checkbox]:checked ~ .menu {
+
+    display: block;
+
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 
 .leistung-wrapper {
     margin-bottom: 10px;
