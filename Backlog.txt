@@ -34,25 +34,6 @@
 5) Alle Buttons der Navigationsleiste funktionieren - 5. Sprint
 6) Bei kleinerer Website wird die Navigationsleiste zugeklappt - 5. Sprint
 
-<<<<<<< HEAD
-6.Sprint:
-1) Code verschönern
-2) Kommentare einfügen
-
-1) Als Firmeninhaber möchte ich ein aussagekräftiges Firmenlogo auf der Webseite sehen.
-2) Als IT-Verantwortlicher in der Kundenfima lege ich Wert auf eine gut strukturierte Programmierung.
-3) Als IT-Verantwortlicher in der Kundenfima lege ich Wert darauf, dass ich mich später im Code zurechtfinde.
-4) Als Firma möchte ich, dass meine Kunden eine einfache Möglichkeit haben meinen Kundenservice zu kontaktieren.
-5) Als Gesetzgeber lege ich fest, dass diese Daten für jeden frei zugänglich sein müssen, die Art der praktische Umsetzung ist nicht vorgegeben.
-6) Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigieren können und einen Überblick über die Inhalte der Seite bekommen.
-7) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit ich mich für diese Firma entscheide.
-8) Als Firmeninhaber möchte ich direkt auf den ersten Blick mich von der Konkurrenz abheben um mehr Kunden zu aquirieren.
-9) Als Firmeninhaber möchte ich direkt auf den ersten Blick mich von der Konkurrenz abheben um mehr Kunden zu aquirieren.
-10) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit ich mich für diese Firma entscheide.
-11) Als Entwickler möchte ich möglichst wenig Ballast im Repository rumliegen haben, um den Überblick behalten zu können.
-12) Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigieren können und einen Überblick über die Inhalte der Seite bekommen.
-13) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit die Firma gegenüber Konkurrenten hervorsticht.
-=======
 6. Sprint: (10.05 - 17.05.)
 1) Code optimierung - 6. Sprint
 2) Design feinschliff - 6. Sprint
@@ -106,14 +87,8 @@ Texte: Lorem Ipsum
 Bilder aus Pixabay kostenlos. Z.B.: https://pixabay.com/de/images/search/photovoltaik/
 
 
->>>>>>> 3b8f243df9399500b9370ea0d9037915e78e1133
 
 ToDo
 -Kontaktformular: Daten an email verschicken
 -jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
--Überschrift soll sichtbar sein nachdem man auf Button klickt
 -Kommentare
-<<<<<<< HEAD
--Wer stellt was vor
-=======
->>>>>>> 3b8f243df9399500b9370ea0d9037915e78e1133

@@ -159,7 +159,7 @@ input[type=checkbox]{
   }
 }
 
-
+/* Design für inhaltliche Abschnitte der Website */
 .leistung-wrapper {
     margin-bottom: 10px;
     background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%)
@@ -351,7 +351,7 @@ input[type=checkbox]{
 }
 
 
-
+/* Anpassungen für das Kontaktformular */
 .Kontaktformular { max-width:500px; margin: auto; }
 
 .Kontaktformular h2{
@@ -404,7 +404,7 @@ textarea {
 [type="submit"]:hover { background:orange; }
 
 
-
+/* Anpassungen für Impressum/Datenschutz/AGB */
 .modal-header{
     text-align: center;
     margin: 2% auto;
