@@ -32,6 +32,7 @@
 3) Impressum/Datenschutz/AGB Formulare formatieren - 5. Sprint
 4) Kopfzeile soll beim Scrollen sichtbar bleiben - 5. Sprint
 5) Alle Buttons der Navigationsleiste funktionieren - 5. Sprint
+6) Bei kleinerer Website wird die Navigationsleiste zugeklappt - 5. Sprint
 
 
 
@@ -84,6 +85,6 @@ Bilder aus Pixabay kostenlos. Z.B.: https://pixabay.com/de/images/search/photovo
 
 
 ToDo
--Kontaktformular: Daten an email verschicken
--Navigation auch wenn man runtergescrollt hat
 -jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
+-Überschrift soll sichtbar sein nachdem man auf Button klickt
+-Kommentare
