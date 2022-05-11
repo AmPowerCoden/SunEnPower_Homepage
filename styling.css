@@ -1,3 +1,6 @@
+/*legt die Schriftgröße für Displays mit einer Breite von mind. 992px fest
+-> !important überschreibt dabei alle geltenden styling-Vorschriften.
+-> ohne diese Eigenheit wurde die Schriftgröße bei Displaygrößenanpassung nicht verändert*/
 @media screen and (min-width: 992px){
     h1 {
         font-size: 34px !important;
@@ -16,6 +19,9 @@
     }
 }
 
+/*legt die Schriftgröße für Displays mit einer Breite von max. 991px fest
+-> !important überschreibt dabei alle geltenden styling-Vorschriften.
+-> ohne diese Eigenheit wurde die Schriftgröße bei Displaygrößenanpassung nicht verändert*/
 @media screen and (max-width: 991px){
     h1{
         font-size: 40px !important;
@@ -34,24 +40,29 @@
     }
 }
 
-
+/*setzt die angegebenen Attribute für alle Elemente des Dokuments*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Elementselektor für den gesamten Header des HTML-Dokuments*/
 header {
     background-color: rgb(77, 71, 71);
     height: 8%;
     width: 100%;
 }
 
+/*Klassenselektor für die Klasse der Navigationsleiste
+-> diese greift aber nur unter gewissen Umständen
+-> dies wird wiederum durch ein JS geregelt.*/
 .sticky {
   position: fixed;
   height: 8%;
   top: 0;
   width: 100%;
   background-color: rgb(77, 71, 71);
+  /*setzt die selektierte Klasse in den Vordergrund*/
   z-index: 1;
 }
 
