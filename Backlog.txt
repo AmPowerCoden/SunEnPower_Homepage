@@ -88,11 +88,10 @@ Texte: Lorem Ipsum
 Bilder aus Pixabay kostenlos. Z.B.: https://pixabay.com/de/images/search/photovoltaik/
 
 
->>>>>>> 3b8f243df9399500b9370ea0d9037915e78e1133
 
 ToDo
 -Kontaktformular: Daten an email verschicken
 -jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
--Überschrift soll sichtbar sein nachdem man auf Button klickt
 -Kommentare
--Wer stellt was vor
+-wer präsentiert was?
+-Fertiges Projekt hochladen
