@@ -17,20 +17,18 @@ function SendMail()
     xhttp.open("POST", "email.php", true);
     xhttp.send(formdata);
 
-    //sendEmail(name, mail, nachricht);
 }
 
+window.onscroll = function() {stickyHeader()};
 
-/*function sendEmail(customer_name, customer_mail, customer_message) {
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "sunenpower@gmail.com",
-        Password : "SunEnPowerPasswort",
-        To : 'sunenpower@gmail.com',
-        From : "sunenpower@gmail.com",
-        Subject : "sunEnPower Kontaktaufnahme",
-        Body : "<p>" + customer_name + "</p>" + "<p>" + customer_mail + "</p>" + "<p>" + customer_message + "</p>"
-    }).then(
-    message => alert(message)
-    );
-}*/
+var header = document.getElementById("header");
+
+var sticky = header.offsetTop;
+
+function stickyHeader() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky")
+    } else {
+      header.classList.remove("sticky");
+    }
+}

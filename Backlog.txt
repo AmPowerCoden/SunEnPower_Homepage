@@ -10,7 +10,7 @@
 2) Kontaktformular einfach interaktiv - 2. Sprint
 3) Menüband - 2. Sprint
 4) allg. Seitenlayout - 2. Sprint
-5) gitignore erstellt und eigenfügt - 2. Sprint
+5) gitignore erstellt und eingefügt - 2. Sprint
 6) Logo animieren - 2. Sprint
 7) Passende Bilder suchen - 2. Sprint
 
@@ -35,24 +35,25 @@
 6) Bei kleinerer Website wird die Navigationsleiste zugeklappt - 5. Sprint
 
 6. Sprint: (10.05 - 17.05.)
-1) Code optimierung
-2) Design feinschliff
-3) Präsentation erstellen
+1) Code optimierung - 6. Sprint
+2) Design feinschliff - 6. Sprint
+3) Präsentation erstellen - 6. Sprint
+4) Code verschönern
+5) Kommentare einfügen
 
-
-zu 1) Als Firmeninhaber möchte ich ein aussagekräftiges Firmenlogo auf der Webseite sehen.
-zu 2) Als IT-Verantwortlicher in der Kundenfima lege ich Wert auf eine gut strukturierte Programmierung.
-zu 3) Als IT-Verantwortlicher in der Kundenfima lege ich Wert darauf, dass ich mich später im Code zurechtfinde.
-zu 4) Als Firma möchte ich, dass meine Kunden eine einfache Möglichkeit haben meinen Kundenservice zu kontaktieren.
-zu 5) Als Gesetzgeber lege ich fest, dass diese Daten für jeden frei zugänglich sein müssen, die Art der praktische Umsetzung ist nicht vorgegeben.
-zu 6) Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigieren können und einen Überblick über die Inhalte der Seite bekommen.
-zu 7) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit ich mich für diese Firma entscheide.
-zu 8) Als Firmeninhaber möchte ich direkt auf den ersten Blick mich von der Konkurrenz abheben um mehr Kunden zu aquirieren.
-zu 9) Als Firmeninhaber möchte ich direkt auf den ersten Blick mich von der Konkurrenz abheben um mehr Kunden zu aquirieren.
-zu 10) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit ich mich für diese Firma entscheide.
-zu 11) Als Entwickler möchte ich möglichst wenig Ballast im Repository rumliegen haben, um den Überblick behalten zu können.
-zu 12) Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigieren können und einen Überblick über die Inhalte der Seite bekommen.
-zu 13) Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit die Firma gegenüber Konkurrenten hervorsticht.
+Als Firmeninhaber möchte ich ein aussagekräftiges Firmenlogo auf der Webseite sehen.
+Als IT-Verantwortlicher in der Kundenfima lege ich Wert auf eine gut strukturierte Programmierung.
+Als IT-Verantwortlicher in der Kundenfima lege ich Wert darauf, dass ich mich später im Code zurechtfinde.
+Als Firma möchte ich, dass meine Kunden eine einfache Möglichkeit haben meinen Kundenservice zu kontaktieren.
+Als Gesetzgeber lege ich fest, dass diese Daten für jeden frei zugänglich sein müssen, die Art der praktische Umsetzung ist nicht vorgegeben.
+Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigieren können und einen Überblick über die Inhalte der Seite bekommen.
+Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit ich mich für diese Firma entscheide.
+Als Firmeninhaber möchte ich direkt auf den ersten Blick mich von der Konkurrenz abheben um mehr Kunden zu aquirieren.
+Als Firmeninhaber möchte ich direkt auf den ersten Blick mich von der Konkurrenz abheben um mehr Kunden zu aquirieren.
+Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit ich mich für diese Firma entscheide.
+Als Entwickler möchte ich möglichst wenig Ballast im Repository rumliegen haben, um den Überblick behalten zu können.
+Als Kunde der Firma möchte ich auf schnellem Weg durch die Seite navigieren können und einen Überblick über die Inhalte der Seite bekommen.
+Als zukünftiger Kunde der Firma suche ich nach einer ansprechenden Website, damit die Firma gegenüber Konkurrenten hervorsticht.
 
 
 Aufgabenstellung:
@@ -91,5 +92,6 @@ Bilder aus Pixabay kostenlos. Z.B.: https://pixabay.com/de/images/search/photovo
 ToDo
 -Kontaktformular: Daten an email verschicken
 -jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
--Überschrift soll sichtbar sein nachdem man auf Button klickt
 -Kommentare
+-wer präsentiert was?
+-Fertiges Projekt hochladen

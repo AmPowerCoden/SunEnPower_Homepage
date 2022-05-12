@@ -1,3 +1,6 @@
+/*legt die Schriftgröße für Displays mit einer Breite von mind. 992px fest
+-> !important überschreibt dabei alle geltenden styling-Vorschriften.
+-> ohne diese Eigenheit wurde die Schriftgröße bei Displaygrößenanpassung nicht verändert*/
 @media screen and (min-width: 992px){
     h1 {
         font-size: 34px !important;
@@ -16,325 +19,57 @@
     }
 }
 
+/*legt die Schriftgröße für Displays mit einer Breite von max. 991px fest
+-> !important überschreibt dabei alle geltenden styling-Vorschriften.
+-> ohne diese Eigenheit wurde die Schriftgröße bei Displaygrößenanpassung nicht verändert*/
 @media screen and (max-width: 991px){
-    h1{
-        font-size: 40px !important;
-    }
+  h1{ font-size: 40px !important; }
 
-    h2 {
-        font-size: 30px !important;
-    }
+  h2 { font-size: 30px !important; }
 
-    h3{
-        font-size: 28px !important;
-    }
+  h3{ font-size: 28px !important; }
 
-    p{
-        font-size: 22px;
-    }
+  p{ font-size: 22px; }
 }
 
-
+/*setzt die angegebenen Attribute für alle Elemente des Dokuments*/
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/*Elementselektor für den gesamten Header des HTML-Dokuments*/
 header {
-    background-color: rgb(77, 71, 71);
-    height: 8%;
-    width: 100%;
-}
-
-.sticky {
-  position: fixed;
-  height: 8%;
-  top: 0;
-  width: 100%;
   background-color: rgb(77, 71, 71);
-  z-index: 1;
+  height: 8%;
+  width: 100%;
 }
 
+/*gibt die Maße für den Container des Logos an*/
 .logo-wrapper {
-    height: 0%;
-    width: 10%;
-}
-
-.main-wrapper h1{
-    text-align: center;
-}
-
-.header-content {
-    color: white;
-    height: 100%;
-    margin-left: 15%;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-.nav-list {
-  display: flex;
-  margin-top: .5rem;
-  align-items: center;
-  justify-content: space-between;
-
-
-  color: #fff;
-}
-
-.nav-links {
-  width: 95%;
-}
-
-.nav-links a {
-  color: #fff;
-}
-
-.menu {
-  display: flex;
-  gap: 1em;
-  font-size: 18px;
-}
-
-.menu li:hover {
-  background-color: gold;
-  color: darkblue;
-  border-radius: 5px;
-  transition: 0.3s ease;
-}
-
-.menu li {
-  padding: 5px 14px;
-}
-
-input[type=checkbox]{
-  display: none;
-}
-
-.hamburger {
-  display: none;
-  margin-top: 0.35rem;
-  font-size: 24px;
-  user-select: none;
-  margin-left: 100%;
-}
-
-@media (max-width: 1360px) {
-  .menu {
-    display: none;
-    position: absolute;
-    background-color: rgb(77, 71, 71);
-    color: #fff;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-  }
-
-  .menu li:hover {
-    display: inline-block;
-    background-color: gold;
-    color: darkblue;
-    transition: 0.3s ease;
-  }
-
-  .menu li + li {
-    margin-top: 12px;
-  }
-
-  input[type=checkbox]:checked ~ .menu {
-
-    display: block;
-
-  }
-
-  .hamburger {
-    display: block;
-  }
-}
-
-
-.leistung-wrapper {
-    margin-bottom: 10px;
-    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%)
-}
-
-.leistung-wrapper h2{
-    width: 70%;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    margin: 0 auto;
-}
-
-.leistung-wrapper h3{
-    width: 70%;
-    margin: auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.leistung-wrapper p{
-    width: 70%;
-    margin-bottom: 1%;
-    margin: 0 auto;
-}
-
-.produkt-wrapper{
-    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
-    margin: 0 auto;
-}
-
-.produkt-wrapper img {
-    margin-bottom: 10px;
-}
-
-.produkt-wrapper h2{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.produkt-wrapper h3{
-    text-align: center;
-}
-
-.Referenzprojekte h3{
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.produkt {
-    width: 31%;
-    float: left;
-    border: 2px solid black;
-    margin: 1%;
-    text-align: justify;
-    height: 400px;
-}
-
-.produkt h4{
-    margin-bottom: 5%;
-}
-
-.Referenzprojekte {
-    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
-}
-
-.Referenzprojekte h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 70%;
-    margin: 1% auto;
-}
-
-.projekt {
-    margin-bottom: 10px;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.Projekt h3{
-    margin:  auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    width: 70%;
-}
-
-.Projekt p{
-    margin-bottom: 1%;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.News-Farbverlauf {
-    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
-}
-
-.Kontaktformular-Background {
-    background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
-}
-
-.News-Bereich {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.News-Bereich h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.News-Bereich img{
-    margin-bottom: 15px;
-}
-
-.news h3 {
-    margin-bottom: 0.5%;
-}
-
-.news p {
-    margin-bottom: 1%;
-}
-
-.footer {
-    width: 70%;
-    margin: 0 auto;
+  height: 10%;
+  width: 10%;
 }
 
 .svg-animation-container {
 	width: 65 px;
-    height: 60 px;
+  height: 60 px;
 }
 
-.svg-animation-container > svg {
-	width: 100%;
+.svg-animation-container > svg { width: 100%; }
 
-}
+/*Ansteuerung der einzelnen Graphik-Elemente für die Animation
+->jedes Elemtent des Logos kann einzeln angesteuert und animiert werden*/
+#underunderleft { animation: blink 2s infinite alternate ease-in-out; }
+#underrightright { animation: blink 2s infinite alternate ease-in-out; }
+#upperupperright { animation: blink 2s infinite alternate ease-in-out; }
+#upperleftleft { animation: blink 2s infinite alternate ease-in-out; }
+#underleftleft { animation: blink 2s infinite alternate ease-in-out; }
+#underunderright { animation: blink 2s infinite alternate ease-in-out; }
+#upperrightright { animation: blink 2s infinite alternate ease-in-out; }
+#upperupperleft { animation: blink 2s infinite alternate ease-in-out; }
 
-#underunderleft {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#underrightright {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#upperupperright {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#upperleftleft {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#underleftleft {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#underunderright {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#upperrightright {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-#upperupperleft {
-	animation: blink 2s infinite alternate ease-in-out;
-}
-
-
-
+/*definiert die oben angewendete Animationsbezeichung mit Vektorbefehlen*/
 @keyframes blink {
 	0% {
 		transform: translate3d(0,0,0);
@@ -350,17 +85,257 @@ input[type=checkbox]{
 	}
 }
 
+/*gibt die Grundeigenschaften für die Kopfzeile der Website*/
+.header-content {
+  color: white;
+  height: 100%;
+  margin-left: 15%;
+}
 
+/*Klassenselektor für die Klasse der Navigationsleiste
+-> diese greift aber nur unter gewissen Umständen
+-> dies wird wiederum durch ein JS geregelt.*/
+.sticky {
+  position: fixed;
+  height: 8%;
+  top: 0;
+  width: 100%;
+  background-color: rgb(77, 71, 71);
+  /*setzt die selektierte Klasse in den Vordergrund*/
+  z-index: 1;
+}
 
+/*Elementselektor für alle a-Elemente
+-> sorgt dafür, dass die Links ohne die typische Unterstreichung dargestellt werden
+-> !important überschreibt andere Styling-Vorschriften und macht diese Vorschrift
+wirksam*/
+a { text-decoration: none !important; }
+
+/*Elementselektor für alle li-Elemente
+-> sorgt dafür, dass die Listenelemente ohne Aufzählungszeichen dargestellt werden*/
+li { list-style: none; }
+
+/*setzt die Einstellungen für die Navigationsblöcke
+-> flex verteilt die einzelnen Listenelemente gleichmäßig*/
+.nav-list {
+  display: flex;
+  margin-top: .25rem;
+  align-items: center;
+  color: #fff;
+}
+
+/*Klassenselektor der dafür benutzt wird, dass das Burgermenu für kleine Displays
+auf der rechten statt auf der linken Seite erscheint*/
+.nav-links { width: 95%; }
+
+/*Färbt die Schrift aller Anchor-Elemente im nav-links-Container ein*/
+.nav-links a { color: #fff; }
+
+/*legt die Attribute für den menu-Container auf einem großen Display fest*/
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+/*legt die Attribute für alle li-Elemente im menu-Container fest über die mit
+der Maus drüber gefahren wird*/
+.menu li:hover {
+  background-color: gold;
+  color: darkblue;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+/*legt Allgemein ein padding für alle li-Elemente im menu-Container fest*/
+.menu li { padding: 5px 14px; }
+
+/*solange die Bedingung nicht greift ist das Hamburger-Menu-Symbol ausgeblendet*/
+input[type=checkbox]{ display: none; }
+
+/*Grundsätzliche Einstellungen für das Hamburger-Menu-Symbol,
+allerdings ist der default-status "ausgeblendet"*/
+.hamburger {
+  display: none;
+  margin-top: 0.25rem;
+  font-size: 24px;
+  user-select: none;
+  margin-left: 100%;
+}
+
+/*setzt Bedingung für das Umschalten von normaler Nav-Bar zu Hamburger-Menu
+-> Nav-Bar wird ausgeblendet, Listenelemente erscheinen untereinander*/
+@media (max-width: 1360px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(77, 71, 71);
+    color: #fff;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+/*legt Attribute für den Zustand "Hamburger-Menu" wenn man mit der Maus über
+einen der Menüpunkte fährt*/
+  .menu li:hover {
+    display: inline-block;
+    background-color: gold;
+    color: darkblue;
+    transition: 0.3s ease;
+  }
+
+/*Legt ein Margin für die Vertikale Nav-Bar im Hamburger-Menü fest*/
+  .menu li { margin-top: 12px; }
+
+/*macht das Hamburgermenü klickbar*/
+  input[type=checkbox]:checked ~ .menu { display: block; }
+
+/*erzeugt das Hamburger-Symbol auf der Website wenn die Bedingung eintritt*/
+  .hamburger { display: block; }
+}
+
+/*Zentriert alle h1 im main-wrapper-Container*/
+.main-wrapper h1 { text-align: center; }
+
+/*Setzt den Hintergrundfarbverlauf für den ersten Abschnitt der Website
+-> padding sorgt für saubere Abstände zum nächsten Abschnitt*/
+.leistung-wrapper {
+  background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+  padding-bottom: 1rem;
+}
+
+/*Setzt alle Attribute für die h2 im ersten Abschnitt der Website*/
+.leistung-wrapper h2 {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+/*Setzt alle Attribute für die h3 im ersten Abschnitt der Website*/
+.leistung-wrapper h3 {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/*Setzt alle Attribute für die p im ersten Abschnitt der Website*/
+.leistung-wrapper p {
+  width: 70%;
+  margin-bottom: 1%;
+  margin: 0 auto;
+}
+
+/*Setzt den Hintergrundfarbverlauf für den zweiten Abschnitt der Website
+-> padding sorgt für saubere Abstände zum nächsten Abschnitt*/
+.produkt-wrapper {
+  background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+  padding-bottom: 1rem;
+}
+
+/*Setzt alle Attribute für die h2 im zweiten Abschnitt der Website*/
+.produkt-wrapper h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+/*zentriert alle h3 im zweiten Abschnitt der Website*/
+.produkt-wrapper h3 { text-align: center; }
+
+/*Setzt einen Abstand nach unten zum nachfolgenden Text für alle img-Elemnte im
+zweiten Absatz der Website*/
+.produkt-wrapper img { margin-bottom: 10px; }
+
+/*Setzt den Hintergrundfarbverlauf für den dritten Abschnitt der Website
+-> padding sorgt für saubere Abstände zum nächsten Abschnitt*/
+.Referenzprojekte {
+  background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+  padding-bottom: 1rem;
+}
+
+/*Setzt die Attribute für die h2 im Referenzprojekte-Container*/
+.Referenzprojekte h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+
+/*Setzt die Attribute für die h3 im dritten Abschnitt der Website*/
+.Referenzprojekte h3 {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+/*Setzt die Attribute für alle Teile der "Projekt"-Klasse
+->Breite wird auf 70% gesetzt, damit die eingefügten Bilder sich schön in
+das zentriert ausgelegte Design der Website einfügen*/
+.projekt {
+  margin-bottom: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*Setzt Abstände noch oben und unten für die h3 im dritten Abschnitt der Website*/
+.projekt h3 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/*Setzt die Attribute für alle p-Bestandteile der "Projekt"-Klasse
+->Breite auf 70% wegen des zentrierten Seitendesigns*/
+.projekt p {
+  margin-bottom: 1%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*Legt den Farbverlauf für den News-Bereich fest*/
+.News-Farbverlauf {
+  background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+  padding-bottom: 1rem;
+}
+
+/*Attribute für den gesamten News-Bereich-container
+-> 70% Breite wegen des zentrierten Seitendesigns*/
+.News-Bereich {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*Zentrierung und abhebung vom umgebenden Text der h2 im News-Bereich*/
+.News-Bereich h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+/*reduziert die Größe der leeren Box die den Absatz umgibt auf der Website */
+.News-Bereich p { margin-bottom: 1%; }
+
+/*Abstände der Bilder vom umgebenden Text*/
+.News-Bereich img {
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+/*Setzt den Farbverlauf im Abschnitt des Kontaktformulars*/
+.Kontaktformular-Background {
+  background-image: linear-gradient(to bottom, white 0%, #F2F2F2 70%);
+}
+
+/*Anpassungen für das Kontaktformular*/
 .Kontaktformular { max-width:500px; margin: auto; }
 
-.Kontaktformular h2{
-    margin-top: 50px;
-}
+/*Setzt Abstand der h2 im Kontaktformular vom umgebenden Text*/
+.Kontaktformular h2 { margin-top: 2rem; }
 
-.Kontaktformular button{
-    margin-bottom: 50px;
-}
+/*Trennt optisch den Button vom eigentlichen Kontaktformular ab*/
+.Kontaktformular button { margin-bottom: 2.5rem; }
 
 .feedback-input {
   color:black;
@@ -403,13 +378,19 @@ textarea {
 }
 [type="submit"]:hover { background:orange; }
 
-
-
-.modal-header{
-    text-align: center;
-    margin: 2% auto;
+/*Anpassungen für die Fußzeile*/
+.footer {
+  width: 70%;
+  margin: 0 auto;
 }
+
+/*Anpassungen für Impressum/Datenschutz/AGB*/
+.modal-header{
+  text-align: center;
+  margin: 2% auto;
+}
+
 .modal-body{
-    text-align: center;
-   margin: 2% auto;
+  text-align: center;
+  margin: 2% auto;
 }
