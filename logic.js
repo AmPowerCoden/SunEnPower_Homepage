@@ -14,9 +14,19 @@ function SendMail()
     var xhttp;
     xhttp = new XMLHttpRequest();
 
+    var alertmsg = ""
+
     xhttp.open("POST", "email.php", true);
     xhttp.send(formdata);
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            alert("Ihre Anfrage wurde erfolgreich versendet");
+        }
+    }
 
+    document.getElementById("textarea_nachricht").value = "";
+    document.getElementById('input_mail').value = "";
+    document.getElementById('input_name').value  = "";
 }
 
 window.onscroll = function() {stickyHeader()};

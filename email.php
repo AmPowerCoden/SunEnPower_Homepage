@@ -11,9 +11,7 @@
   $email = $_POST['email'];
   $nachricht = $_POST['nachricht'];
 
-  echo '<script>alert("Welcome to Geeks for Geeks")</script>';
-
-  Sendmail($name, $email, $nachricht);
+  $erflolg = Sendmail($name, $email, $nachricht);
   
   function Sendmail($name, $email, $nachricht) {
 
