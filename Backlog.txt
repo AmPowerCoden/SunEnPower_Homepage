@@ -38,7 +38,8 @@
 1) Code optimierung - 6. Sprint
 2) Design feinschliff - 6. Sprint
 3) Präsentation erstellen - 6. Sprint
-
+4) Code verschönern
+5) Kommentare einfügen
 
 Als Firmeninhaber möchte ich ein aussagekräftiges Firmenlogo auf der Webseite sehen.
 Als IT-Verantwortlicher in der Kundenfima lege ich Wert auf eine gut strukturierte Programmierung.
