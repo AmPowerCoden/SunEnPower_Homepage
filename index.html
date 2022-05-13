@@ -11,12 +11,12 @@
 <body>
     <header>
       <!-- Animiertes Logo-->
-      <div id="header">
-        <div class="header-wrapper">
+        <div class="header-wrapper" id="header">
             <div class="logo-wrapper">
                 <div class="svg-animation-container">
                     <svg width="65" height="60" viewBox="0 0 378 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Logo">
+                          <!-- Gruppe, die alle Vectoren der Solarplatte beschreiben und als ein Objekt ansteuerbar machen -->
                           <g id="SolarPanel">
                             <path id="Vector" d="M166.858 81.1861L155.711 125.256L184.44 249.175L208.879 280.328L361.518 253.81L376.829 212.739L347.273 86.8964L315.863 53.4364L166.858 81.1861Z" fill="#272747" stroke="black" stroke-width="0.111914"/>
                             <path id="Vector_2" d="M307.3 54.837L310.144 53.7507L351.464 260.035L348.62 261.121L307.3 54.837Z" fill="white" stroke="black" stroke-width="0.100006" stroke-linecap="round" stroke-linejoin="round"/>
@@ -26,9 +26,11 @@
                             <path id="Vector_6" d="M223.951 66.6405L226.805 65.5503L268.27 272.556L265.416 273.646L223.951 66.6405Z" fill="white" stroke="black" stroke-width="0.100361" stroke-linecap="round" stroke-linejoin="round"/>
                             <path id="Vector_7" d="M374.318 197.386L374.838 200.336L176.315 229.619L175.795 226.669L374.318 197.386Z" fill="white" stroke="black" stroke-width="0.0995884" stroke-linecap="round" stroke-linejoin="round"/>
                           </g>
+                          <!-- Gruppe, die Kreiskörper der Sonne beschreibt und ansteuerbar macht -->
                           <g id="Sun">
                             <path id="Vector_8" d="M84.4253 187.922C73.4592 144.867 97.7462 100.611 138.671 89.0738C179.596 77.537 221.663 103.088 232.629 146.143C243.595 189.198 219.308 233.455 178.383 244.991C137.458 256.528 95.3913 230.977 84.4253 187.922Z" fill="url(#paint0_radial_1_27)" stroke="#FFFCF6" stroke-width="1.00002" stroke-linecap="round" stroke-linejoin="round"/>
                           </g>
+                          <!-- Gruppen, die einen einzelnen Sonnenstrahl der Sonne beschreiben und ansteuerbar machen -->
                           <g id="underunderleft">
                             <path id="Vector_9" d="M128.338 259.298L79.2748 315.188L92.9035 241.735L108.482 254.93L128.338 259.298V259.298Z" fill="url(#paint1_linear_1_27)" stroke="#FFFCF6" stroke-width="1.00002" stroke-linecap="round" stroke-linejoin="round"/>
                           </g>
@@ -54,6 +56,7 @@
                             <path id="Vector_16" d="M117.454 77.7952L116.173 3.88236L152.588 65.7631L133.734 67.1456L117.454 77.7952Z" fill="url(#paint8_linear_1_27)" stroke="url(#paint9_linear_1_27)" stroke-width="1.00002" stroke-linecap="round" stroke-linejoin="round"/>
                           </g>
                         </g>
+                        <!-- nachfolgend werden alle Grundeinstellungen für das Logo ohne Animation angegeben -->
                         <defs>
                           <radialGradient id="paint0_radial_1_27" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(158.537 167.03) rotate(164.257) scale(76.9898 80.4218)">
                             <stop stop-color="#FFD000"/>
@@ -113,6 +116,7 @@
                 <div class="header-content">
                   <nav class="nav-list">
                     <ul class="nav-links">
+                      <!-- Hilfsmittel für das Hamburgermenu auf kleinen Displays -->
                       <input type="checkbox" id="checkbox_toggle" />
                       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                         <div class="menu">
@@ -139,15 +143,13 @@
                   </nav>
                 </div>
         </div>
-      </div>
     </header>
 
     <!--Überschrift und Leistungen-->
     <div class="main-wrapper">
-      <div id="leistung-wrapper"></div>
+      <div class="leistung-wrapper" id="leistung-wrapper">
         <br><br>
         <h1>SunEnPower – Solartechnik GmbH Dienstleister für die Planung und Realisierung im Bereich Photovoltaik</h1>
-        <div class="leistung-wrapper">
           <div class="leistung-width-wrapper">
             <h2>Unsere Leistungen</h2>
               <div class="planUndDurchführung">
@@ -166,11 +168,11 @@
         </div>
 
         <!-- Produktübericht-->
-        <div class="produkt-wrapper">
-          <div id="produkt-wrapper"></div>
+        <div class="produkt-wrapper" id="produkt-wrapper">
                 <br><br>
                 <h2>Produktübersicht</h2>
                 <div class="row justify-content-center">
+                  <!-- Bootstrap Spalteneinteilung für das Responsive-Design -->
                     <div class="col-xl-2 col-lg-5 col-sm-8 p-3 border bg-light m-2">
                         <h3>Photovoltaikanlagen für Privathäuser und Gewerbeimmobilien</h3>
                         <img src="Bilder/Haus_Photo_Voltaik.jpg" alt="Haus_Photo_Voltaik" class="img-fluid">
@@ -178,6 +180,7 @@
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                         </p>
                   </div>
+                  <!-- Bootstrap Spalteneinteilung für das Responsive-Design -->
                   <div class="col-xl-2 col-lg-5 col-sm-8 p-3 border bg-light m-2">
                       <h3>Photovoltaikanlagen Carports und Garagen</h3>
                         <img src="Bilder/Lagerhalle_Photovoltaik.jpg" alt="Lagerhalle_Photovoltaik" class="img-fluid">
@@ -185,6 +188,7 @@
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                         </p>
                   </div>
+                  <!-- Bootstrap Spalteneinteilung für das Responsive-Design -->
                   <div class="col-xl-2 col-lg-5 col-sm-8 p-3 border bg-light m-2">
                       <h3>Stromspeicher</h3>
                         <img src="Bilder/Batterie.png" alt="Batterie" class="img-fluid">
@@ -192,6 +196,7 @@
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                         </p>
                   </div>
+                  <!-- Bootstrap Spalteneinteilung für das Responsive-Design -->
                   <div class="col-xl-2 col-lg-5 col-sm-8 p-3 border bg-light m-2">
                       <h3>Wallboxen und Ladeanschluss-Systeme für Elektrofahrzeuge</h3>
                         <img src="Bilder/AutoLaden.jpg" alt="Ladeanschluss Auto" class="img-fluid">
@@ -203,15 +208,17 @@
         </div>
 
         <!-- Referenzprojekte-->
-        <div class="Referenzprojekte">
+        <div class="Referenzprojekte" id="Referenzprojekte">
+          <!-- Bootstrap Spalteneinteilung für das Responsive-Design -->
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <div id="Referenzprojekte"></div>
                 <br><br>
                 <h2>Referenzprojekte</h2>
                   <div class="projekt">
                       <h3>Photovoltaik Einfamilienhaus</h3>
                         <div class="row align-items-center">
+                          <!-- Bild über dem Text eingefügt mit Zusatzangabe für das Responsive-Design -->
                             <img src="Bilder/Einfamilienhaus.jpg" alt="Einfamilienhaus" class="col-lg-6 col-md-12">
+                          <!-- Bootstrap Spaltenangabe -->
                             <p class="col-lg-6">
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                             </p>
@@ -220,15 +227,18 @@
               <div class="projekt">
                   <h3>Photovoltaik Lagerhalle</h3>
                     <div class="row align-items-center">
+                      <!-- Bootstrap Spaltenangabe -->
                         <p class="col-lg-6">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                         </p>
+                        <!-- Bild unter dem Text mit Zusatzangabe für das Responsive-Design -->
                         <img src="Bilder/Lagerhalle_Photovoltaik.jpg" alt="Lagerhalle" class="col-lg-6 col-md-12">
                     </div>
               </div>
               <div class="projekt">
                   <h3>3 Wallboxen für Hotelgäste</h3>
                     <div class="row align-items-center">
+                      <!-- Bild über Text mit Zusatzangabe für Repsonsive-Design -->
                         <img src="Bilder/Wallbox_Hotel.jpg" alt="Wallboxen" class="col-lg-6 col-md-12">
                         <p class="col-lg-6">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -240,11 +250,11 @@
 
       <!-- News-Bereich-->
         <div class="News-Farbverlauf">
-            <div class="News-Bereich">
-                <div id="News-Bereich"></div>
+            <div class="News-Bereich" id="News-Bereich">
                 <br><br>
                 <h2>News-Bereich</h2>
                 <div class="row justify-content-center">
+                  <!-- Bootstrap Spaltenangaben für Responsive-Design -->
                     <div class="col-xl-3 col-lg-5 col-md-8 p-3 border bg-light m-2">
                         <h3>Aktuelle Techniken</h3>
                         <img src="Bilder/Drei_Blau_Punkte.jpg" alt="Lagerhalle_Photovoltaik" class="img-fluid">
@@ -252,6 +262,7 @@
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                         </p>
                     </div>
+                    <!-- Bootstrap Spaltenangaben für Responsive-Design -->
                 <div class="col-xl-3 col-lg-5 col-md-8 p-3 border bg-light m-2">
                     <h3>Staatliche Förderung</h3>
                       <img src="Bilder/Staatliches_Geld.jpg" alt="Staatliches_Geld" class="img-fluid">
@@ -259,6 +270,7 @@
                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                       </p>
                 </div>
+                <!-- Bootstrap Spaltenangaben für Responsive-Design -->
                 <div class="col-xl-3 col-lg-10 col-md-8 p-3 border bg-light m-2">
                     <h3>Unternehmens-News</h3>
                       <img src="Bilder/Unternehmen_News.jpg" alt="Unternehmens_News" class="img-fluid">
@@ -271,17 +283,17 @@
       </div>
 
 
-      <!-- Kontaktformular-->
-        <div class="Kontaktformular-Background">
-            <div class="Kontaktformular">
-                <div id="Kontaktformular"></div>
+        <!-- Kontaktformular-->
+          <div class="Kontaktformular-Background">
+            <div class="Kontaktformular" id="Kontaktformular">
                 <br><br>
                 <h2>Kontaktformular</h2>
-                <input id="input_name" name="Name" type="text" class="feedback-input" placeholder="Name" />
-                <input id="input_mail" name="Mail" type="text" class="feedback-input" placeholder="E-mail" />
-                <textarea id="textarea_nachricht" name="Nachricht" class="feedback-input" placeholder="Kommentar"></textarea>
-                <button onclick="SendMail()" type="submit">Abschicken</button>
-        </div>
+                    <input id="input_name" name="name" type="text" class="feedback-input" placeholder="Name" />
+                    <input id="input_mail" name="email" type="text" class="feedback-input" placeholder="E-mail" />
+                    <textarea id="textarea_nachricht" name="nachricht" class="feedback-input" placeholder="Kommentar"></textarea>
+                    <button onclick="SendMail()" type="submit" >Absenden</button>
+                    <span class="output_message"></span>
+            </div>
       </div>
     </div>
 
@@ -294,14 +306,17 @@
             <div class="firmenname" style="color:white; border:none;">
                 © SunEnPower – Solartechnik GmbH
                 <span class="impressum">
+                  <!-- Erstellt einen horizontalen Listenpunkt der auf eine separate Impressum-Seite verlinkt ist -->
                     <span><a href="./impressum-text.html" target="_blank"><U>Impressum</U></a></span>
                 </span>
                 -
                 <span class="datenschutz">
+                  <!-- Erstellt einen horizontalen Listenpunkt der auf eine separate Datenschutz-Seite verlinkt ist -->
                     <span><a href="./datenschutz-text.html" target="_blank"><U>Datenschutz</U></a></span>
                 </span>
                 -
                 <span class="AGB">
+                  <!-- Erstellt einen horizontalen Listenpunkt der auf eine separate AGB-Seite verlinkt ist -->
                     <span><a href="./AGB-text.html" target="_blank"><U>AGB</U></a></span>
                 </span>
             </div>
@@ -312,6 +327,5 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="logic.js"></script>
-    <script src="smtp.js"></script>
+    <script src="logic.js"></script> <!-- Fügt die Funktionen die in der logic.js hinterlegt sind in die Website ein -->
 </body>
