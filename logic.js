@@ -29,6 +29,7 @@ function SendMail()
     document.getElementById('input_name').value  = "";
 }
 
+//Funktion um die Nav-Leiste beim Scrollen am oberen Ende zu fixieren
 window.onscroll = function() {stickyHeader()};
 
 var header = document.getElementById("header");
