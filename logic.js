@@ -20,7 +20,7 @@ function SendMail()
     xhttp.send(formdata);
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            alert("Ihre Anfrage wurde erfolgreich versendet");
+          alert("Ihre Anfrage wurde erfolgreich versendet");
         }
     }
 
