@@ -86,12 +86,3 @@ WebSite from Scratch für Firma „SunEnPower – Solartechnik GmbH“ Dienstlei
 
 Texte: Lorem Ipsum
 Bilder aus Pixabay kostenlos. Z.B.: https://pixabay.com/de/images/search/photovoltaik/
-
-
-
-ToDo
--Kontaktformular: Daten an email verschicken
--jeder soll nochmal in sprintliste angeben, wann er was gemacht habt
--Kommentare
--wer präsentiert was?
--Fertiges Projekt hochladen
